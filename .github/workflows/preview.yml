@@ -1,6 +1,6 @@
 name: Mizan Temporary Preview
 # Redeploys the current architecture branch on pushes to this preview repository.
-# Publish theme-aware accents across home, forum, lawyer directory, and shared theme (2026-10-09).
+# Publish theme-aware accents across home, forum, lawyer directory, shared theme, and admin panel (2026-10-09).
 
 on:
   push:
