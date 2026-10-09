@@ -1,6 +1,6 @@
 name: Mizan Temporary Preview
 # Redeploys the current architecture branch on pushes to this preview repository.
-# Publish Mizan V5 reference alignment: typography, navy surfaces, blue actions, and restrained gold (2026-10-09).
+# Publish Mizan V5 reference alignment including homepage hierarchy and centralized focus states (2026-10-09).
 
 on:
   push:
