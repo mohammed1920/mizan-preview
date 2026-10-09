@@ -1,0 +1,44 @@
+name: Mizan Temporary Preview
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: mizan-preview-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Mizan architecture branch
+        uses: actions/checkout@v4
+        with:
+          repository: mohammed1920/exam-platform-v2
+          ref: refactor/architecture-foundation
+          path: site
+
+      - name: Prepare static Pages artifact
+        run: |
+          touch site/.nojekyll
+          printf '%s\n' 'Temporary static preview. API-dependent features require Vercel.' > site/PREVIEW-INFO.txt
+          rm -rf site/.git
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
