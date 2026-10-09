@@ -1,6 +1,6 @@
 name: Mizan Temporary Preview
 # Redeploys the current architecture branch on pushes to this preview repository.
-# Publish compact V5 brand header, central typography, navy palette, blue actions, and homepage focus fixes (2026-10-09).
+# Publish latest V5 semantic accent surfaces and contrast refinements from architecture branch (2026-10-09).
 
 on:
   push:
