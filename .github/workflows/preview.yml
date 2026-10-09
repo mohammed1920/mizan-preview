@@ -1,6 +1,6 @@
 name: Mizan Temporary Preview
 # Redeploys the current architecture branch on pushes to this preview repository.
-# Publish the final homepage hero and central-token fixes for visual QA (2026-10-09).
+# Publish Mizan V5 typography, palette, brand treatment, and central-token changes for visual QA (2026-10-09).
 
 on:
   push:
