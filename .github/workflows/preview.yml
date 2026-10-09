@@ -1,6 +1,6 @@
 name: Mizan Temporary Preview
 # Redeploys the current architecture branch on pushes to this preview repository.
-# Refresh architecture preview after duplicate-token and admin-shadow cleanup (2026-10-09).
+# Refresh architecture preview after shared shadow and focus-token cleanup (2026-10-09).
 
 on:
   push:
