@@ -1,6 +1,6 @@
 name: Mizan Temporary Preview
 # Redeploys the current architecture branch on pushes to this preview repository.
-# Refresh commit 6: deploy the latest theme-toggle placement fix from the architecture branch.
+# Refresh commit 7: deploy centralized test dashboard and contact section tokens.
 
 on:
   push:
