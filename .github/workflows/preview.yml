@@ -1,6 +1,6 @@
 name: Mizan Temporary Preview
 # Redeploys the current architecture branch on pushes to this preview repository.
-# Publish the completed Mizan design-system pass for final visual QA (2026-10-09).
+# Publish the V4 homepage hero and final centralized token pass for visual QA (2026-10-09).
 
 on:
   push:
