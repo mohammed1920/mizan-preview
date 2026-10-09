@@ -1,6 +1,6 @@
 name: Mizan Temporary Preview
 # Redeploys the current architecture branch on pushes to this preview repository.
-# Refresh commit 3: deploy verified CSS layer ordering and duplicate-rule cleanup from the architecture branch.
+# Refresh commit 4: deploy the final verified stylesheet deduplication and cascade ordering.
 
 on:
   push:
