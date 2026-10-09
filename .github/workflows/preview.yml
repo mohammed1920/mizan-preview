@@ -1,6 +1,6 @@
 name: Mizan Temporary Preview
 # Redeploys the current architecture branch on pushes to this preview repository.
-# Publish latest architecture-branch updates for visual QA (2026-10-09, clean artifact run, source sync 13).
+# Publish latest architecture-branch updates for visual QA (2026-10-09, clean artifact run, source sync 14).
 
 on:
   push:
