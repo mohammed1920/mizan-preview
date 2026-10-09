@@ -1,6 +1,6 @@
 name: Mizan Temporary Preview
 # Redeploys the current architecture branch on pushes to this preview repository.
-# Refresh commit 5: fresh deployment after a transient Pages artifact metadata failure.
+# Refresh commit 6: deploy the latest theme-toggle placement fix from the architecture branch.
 
 on:
   push:
