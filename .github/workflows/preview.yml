@@ -1,6 +1,6 @@
 name: Mizan Temporary Preview
 # Redeploys the current architecture branch on pushes to this preview repository.
-# Publish V5 light-mode elevation refinements and latest semantic UI tokens (2026-10-09).
+# Publish V5 light elevation, forum accents, and latest cache-refreshed UI tokens (2026-10-09).
 
 on:
   push:
