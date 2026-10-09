@@ -1,6 +1,6 @@
 name: Mizan Temporary Preview
 # Redeploys the current architecture branch on pushes to this preview repository.
-# Publish latest architecture-branch updates for visual QA (2026-10-09, clean artifact run, source sync 18).
+# Publish latest architecture-branch updates for visual QA (2026-10-10, source sync 19).
 
 on:
   push:
@@ -33,7 +33,7 @@ jobs:
       - name: Prepare static Pages artifact
         run: |
           touch site/.nojekyll
-          printf '%s\n' 'Temporary static preview. API-dependent features require Vercel.' > site/PREVIEW-INFO.txt
+          printf '%s\\n' 'Temporary static preview. API-dependent features require Vercel.' > site/PREVIEW-INFO.txt
           rm -rf site/.git
 
       - name: Upload Pages artifact
