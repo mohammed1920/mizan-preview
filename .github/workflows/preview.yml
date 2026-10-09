@@ -1,6 +1,6 @@
 name: Mizan Temporary Preview
 # Redeploys the current architecture branch on pushes to this preview repository.
-# Refresh commit 4: deploy the final verified stylesheet deduplication and cascade ordering.
+# Refresh commit 5: fresh deployment after a transient Pages artifact metadata failure.
 
 on:
   push:
