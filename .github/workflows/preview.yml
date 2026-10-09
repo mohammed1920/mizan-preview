@@ -1,6 +1,6 @@
 name: Mizan Temporary Preview
 # Redeploys the current architecture branch on pushes to this preview repository.
-# Publish final AA muted-text contrast token and admin semantic accents (2026-10-09).
+# Publish final theme-aware muted text across shared surfaces (2026-10-09).
 
 on:
   push:
